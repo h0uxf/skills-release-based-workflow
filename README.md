@@ -46,9 +46,39 @@ You can now [merge](https://docs.github.com/en/get-started/quickstart/github-glo
 
 ### :keyboard: Activity: Merge into main
 
-1. In a separate tab, go to the **Pull requests** page for this repository.
-1. Open your **Release v1.0** pull request.
-1. Click **Merge pull request**.
+Like the `main` branch, you can protect release branches. This means you can protect branches from force pushes or accidental deletion. This is already configured in this repository.
+
+### Add a feature
+
+Releases are usually made of many smaller changes. Let's pretend we don't know about the bug we added earlier and we'll focus on a few features to update our game before the version update.
+
+- You should update the page background color to black.
+- I'll help you change the text colors to green.
+
+### :keyboard: Activity: Update `base.css`!
+
+1. Create a new branch off of the `main` branch and change the `body` CSS declaration in `base.css` to match what is below. This will set the page background to black.
+
+```
+body {
+    background-color: black;
+}
+```
+
+1. Open a pull request with `release-v1.0` as the `base` branch, and your new branch as the `compare` branch.
+1. Fill in the pull request template to describe your changes.
+1. Click **Create pull request**.
+
+### Merge the new feature to the release branch
+
+Even with releases, the GitHub flow is still an important strategy for working with your team. It's a good idea to use short-lived branches for quick feature additions and bug fixes.
+
+Merge this feature pull request so that you can open the release pull request as early as possible.
+
+### :keyboard: Activity: Merge the pull request
+
+1. Click **Merge pull request**, and delete your branch.
+
 1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
 
 <footer>
