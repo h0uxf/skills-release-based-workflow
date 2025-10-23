@@ -46,7 +46,7 @@ Releases are usually made of many smaller changes. Let's pretend we don't know a
 - You should update the page background color to black.
 - I'll help you change the text colors to green.
 
-### :keyboard: Activity: Update `base.css`
+### :keyboard: Activity: Update `base.css`!
 
 1. Create a new branch off of the `main` branch and change the `body` CSS declaration in `base.css` to match what is below. This will set the page background to black.
 
